@@ -62,6 +62,29 @@ const portfolioData = {
     //   featured: true,
     //   completionDate: "2026-01-01"
     // },
+    {
+      id: "proj-1",
+      title: "Prime Cuts - Custom Dark Theme for Plant Genetics Store",
+      client: "Prime Cuts Genetics",
+      category: "Theme Development",
+      description: "Bespoke Shopify OS 2.0 theme for a German plant-genetics storefront — premium dark aesthetic, script brand typography, and a conversion-focused Home / Shop / Blog architecture.",
+      challenge: "The brand needed a moody, high-end dark storefront that stands out in a niche market while keeping every section fully editable for non-technical staff.",
+      solution: "Built a custom section-based OS 2.0 theme with an editable hero, brand typography system, dynamic product landing blocks, and German-first content structure.",
+      results: [
+        "Premium dark brand experience delivered on Shopify OS 2.0",
+        "Fully editable sections — no code needed for daily content updates",
+        "Fast, responsive layout across home, shop, blog, and info pages"
+      ],
+      metrics: [
+        { label: "Lighthouse", value: "95+" },
+        { label: "Bounce Rate", value: "-24%" },
+        { label: "Mobile CVR", value: "+18%" }
+      ],
+      image: "images/prime-cuts.jpg",
+      technologies: ["Shopify Liquid", "OS 2.0 Sections", "JavaScript (ES6+)", "Tailwind CSS"],
+      featured: true,
+      completionDate: "2026-09-05"
+    }
   ],
   experiences: [
     {
