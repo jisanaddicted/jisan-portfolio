@@ -80,7 +80,7 @@ const portfolioData = {
         { label: "Bounce Rate", value: "-24%" },
         { label: "Mobile CVR", value: "+18%" }
       ],
-      image: "images/prime-cuts.jpg",
+      image: "images/prime-cuts.png",
       technologies: ["Shopify Liquid", "OS 2.0 Sections", "JavaScript (ES6+)", "Tailwind CSS"],
       featured: true,
       completionDate: "2026-09-05"
