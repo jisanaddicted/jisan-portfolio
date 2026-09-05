@@ -25,113 +25,43 @@ const portfolioData = {
     avatarImage: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&q=80&w=600",
     headerLogoUrl: "",
     caseStudyCategories: [
-      "Headless Hydrogen",
-      "Theme Customization",
-      "App Development",
-      "Checkout Extensibility",
-      "Performance Optimization",
-      "Migration"
+      "Theme Development",
+      "App Development"
     ],
     resumeUrl: "#"
   },
   projects: [
-    {
-      id: "proj-1",
-      title: "Lumina Luxury - Headless Hydrogen Storefront",
-      client: "Lumina Home & Decor",
-      category: "Headless Hydrogen",
-      description: "Migrated a legacy monolith to Shopify Hydrogen (Remix) paired with Oxygen hosting, delivering sub-second page transitions and custom 3D room visualizer.",
-      challenge: "The client's high-traffic traffic spikes were causing sluggish page loads on their legacy custom cart setup, resulting in high cart abandonment during flash sales.",
-      solution: "Architected a lightning-fast headless storefront using Shopify Hydrogen, GraphQL Storefront API, Tailwind CSS, and edge caching on Oxygen.",
-      results: [
-        "Page load speed improved by 340% (LCP under 0.8s)",
-        "Mobile conversion rate increased by 28%",
-        "Handled 15,000 concurrent checkout sessions without latency"
-      ],
-      metrics: [
-        { label: "Conversion Lift", value: "+28%" },
-        { label: "Page Speed (LCP)", value: "0.7s" },
-        { label: "Annual GMV", value: "$4.2M" }
-      ],
-      image: "https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?auto=format&fit=crop&q=80&w=800",
-      storeUrl: "https://shopify.com",
-      githubUrl: "https://github.com",
-      technologies: ["Hydrogen", "Remix", "GraphQL", "Storefront API", "Tailwind CSS", "Shopify Oxygen"],
-      featured: true,
-      completionDate: "2026-02-15"
-    },
-    {
-      id: "proj-2",
-      title: "Velvet Threads - Custom Theme & Checkout Extensibility",
-      client: "Velvet Apparel Co.",
-      category: "Theme Customization",
-      description: "Built a bespoke Shopify OS 2.0 theme from scratch with advanced dynamic bundle builders and integrated post-purchase upsell checkout UI extensions.",
-      challenge: "The brand needed a high-end editorial aesthetic that stood out from standard Shopify templates while retaining seamless app compatibility.",
-      solution: "Created a modular Section-based OS 2.0 theme with custom Ajax cart drawer, predictive search API, and React-powered upsell widgets in checkout.",
-      results: [
-        "Average Order Value (AOV) increased by 22% via checkout extensions",
-        "Store score on Google Lighthouse reached 98/100",
-        "Zero downtime during Black Friday migration"
-      ],
-      metrics: [
-        { label: "AOV Increase", value: "+22%" },
-        { label: "Lighthouse Score", value: "98/100" },
-        { label: "Bounce Rate", value: "-19%" }
-      ],
-      image: "https://images.unsplash.com/photo-1441986300917-64674bd600d8?auto=format&fit=crop&q=80&w=800",
-      storeUrl: "https://shopify.com",
-      technologies: ["Shopify Liquid", "JavaScript (ES6+)", "Tailwind CSS", "Checkout UI Extensions", "Metafields"],
-      featured: true,
-      completionDate: "2026-01-10"
-    },
-    {
-      id: "proj-3",
-      title: "SyncPro - ERP & Multi-Warehouse Inventory App",
-      client: "Global Logistics Partners",
-      category: "App Development",
-      description: "Developed a private Shopify App (Node.js & Prisma) integrating NetSuite ERP with real-time multi-location inventory syncing and automated fulfillment routing.",
-      challenge: "Merchants were overselling products across 5 regional warehouses due to a 30-minute sync delay in existing app solutions.",
-      solution: "Engineered a robust webhook-driven Node.js app using Shopify GraphQL Admin API and Redis queuing for instant inventory reconciliation.",
-      results: [
-        "Eliminated 100% of overselling discrepancies",
-        "Saved 40 hours of manual warehouse reconciliation per week",
-        "Processed over 50,000 orders monthly without error"
-      ],
-      metrics: [
-        { label: "Sync Latency", value: "< 2s" },
-        { label: "Orders/Mo", value: "50k+" },
-        { label: "Hours Saved", value: "40 hrs/wk" }
-      ],
-      image: "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&q=80&w=800",
-      githubUrl: "https://github.com",
-      technologies: ["Node.js", "Express", "GraphQL Admin API", "Prisma", "PostgreSQL", "Shopify CLI"],
-      featured: true,
-      completionDate: "2025-11-20"
-    },
-    {
-      id: "proj-4",
-      title: "Apex Nutrition - B2B Wholesale & Retail Portal",
-      client: "Apex Supplements",
-      category: "Migration",
-      description: "Migrated a 10-year-old Magento store to Shopify Plus with multi-currency, localized regional pricing, and password-protected B2B wholesale portal.",
-      challenge: "Complex customer tier pricing and legacy product attributes needed seamless mapping into Shopify Plus B2B company locations.",
-      solution: "Utilized Shopify Plus B2B features alongside custom Metaobject data structures and automated customer tagging scripts.",
-      results: [
-        "Operational maintenance costs reduced by 65%",
-        "Wholesale order processing time cut in half",
-        "International sales grew by 45% in 3 months"
-      ],
-      metrics: [
-        { label: "Cost Reduction", value: "65%" },
-        { label: "Intl Growth", value: "+45%" },
-        { label: "Migration Time", value: "6 Weeks" }
-      ],
-      image: "https://images.unsplash.com/photo-1579722821273-0f6c74a83c6b?auto=format&fit=crop&q=80&w=800",
-      storeUrl: "https://shopify.com",
-      technologies: ["Shopify Plus", "Liquid", "B2B Catalogs", "Metaobjects", "Storefront API"],
-      featured: false,
-      completionDate: "2025-09-10"
-    }
+    // ─────────────────────────────────────────────────────────────
+    // HOW TO ADD A PROJECT: copy the template below into this array
+    // and remove the "// " prefixes. The "category" value must be
+    // exactly "Theme Development" or "App Development" so it shows
+    // up under the correct filter tab.
+    // ─────────────────────────────────────────────────────────────
+    // {
+    //   id: "proj-1",
+    //   title: "Project Name - Key Outcome",
+    //   client: "Client Name",
+    //   category: "Theme Development", // or "App Development"
+    //   description: "1-2 sentence summary shown on the project card.",
+    //   challenge: "The problem the client faced.",
+    //   solution: "What you built and how you did it.",
+    //   results: [
+    //     "Measurable result #1",
+    //     "Measurable result #2",
+    //     "Measurable result #3"
+    //   ],
+    //   metrics: [
+    //     { label: "Short Label", value: "+00%" },
+    //     { label: "Short Label", value: "0.0s" },
+    //     { label: "Short Label", value: "$0.0M" }
+    //   ],
+    //   image: "https://images.unsplash.com/photo-...",
+    //   storeUrl: "https://live-store-url.com",
+    //   githubUrl: "https://github.com/username/repo",
+    //   technologies: ["Tech 1", "Tech 2", "Tech 3", "Tech 4"],
+    //   featured: true,
+    //   completionDate: "2026-01-01"
+    // },
   ],
   experiences: [
     {
