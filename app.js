@@ -238,7 +238,7 @@ document.addEventListener('DOMContentLoaded', () => {
     if (!container) return;
 
     container.innerHTML = cats.map((cat, idx) => {
-      const iconName = idx === 0 ? 'shopping-bag' : idx === 1 ? 'code' : 'cpu';
+      const iconName = cat.icon || 'code';
       return `
         <div class="bg-white p-8 rounded-2xl border border-slate-200 shadow-sm space-y-6">
           <div class="flex items-center space-x-3">

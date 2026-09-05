@@ -178,30 +178,25 @@ const portfolioData = {
       title: "Shopify Core & Ecosystem",
       icon: "shopping-bag",
       skills: [
-        { name: "Shopify Liquid & OS 2.0", level: 98, description: "Advanced section architecture, blocks, metaobjects, and theme app extensions." },
-        { name: "Shopify Plus & B2B", level: 95, description: "Multi-store expansion, scripts, functions, and wholesale portals." },
-        { name: "Storefront & Admin APIs", level: 92, description: "GraphQL and REST API integrations for headless and custom apps." },
-        { name: "Checkout Extensibility", level: 90, description: "Post-purchase upsells, checkout UI extensions, and pixel integrations." }
+        { name: "Shopify Theme Development (Liquid & OS 2.0)", level: 95, description: "Custom Liquid themes, dynamic section architecture, custom blocks, metaobjects, and theme customization using Shopify CLI." },
+        { name: "End-to-End Store Setup", level: 98, description: "Complete store configuration, app integrations, navigation, collection/product architecture, domain setup, and payment settings." },
+        { name: "Shopify App Development", level: 85, description: "Custom embedded app development using React Router, Shopify App CLI, and GraphQL/REST Admin APIs." }
       ]
     },
     {
-      title: "Frontend & Headless",
+      title: "Frontend Development",
       icon: "code",
       skills: [
-        { name: "React & Next.js / Remix", level: 94, description: "Modern component-driven SPAs and SSR apps." },
-        { name: "Shopify Hydrogen", level: 90, description: "Headless React framework optimized for Shopify." },
-        { name: "TypeScript & JavaScript", level: 95, description: "Robust type safety and modern ESNext features." },
-        { name: "Tailwind CSS & UI Design", level: 96, description: "Rapid responsive styling with immaculate design precision." }
+        { name: "HTML5, CSS3 & JavaScript (ES6+)", level: 95, description: "Semantic markup, modern layout techniques, clean code structure, and DOM manipulation." },
+        { name: "Tailwind CSS & Responsive Design", level: 90, description: "Rapid utility-first styling and mobile-first, responsive design implementation." }
       ]
     },
     {
-      title: "Backend & Infrastructure",
-      icon: "cpu",
+      title: "Workflow & Tools",
+      icon: "wrench",
       skills: [
-        { name: "Node.js & Express", level: 90, description: "Custom app middleware, webhook handlers, and REST endpoints." },
-        { name: "Databases (PostgreSQL, Prisma, Redis)", level: 88, description: "Relational data modeling and caching layers." },
-        { name: "Performance Optimization", level: 96, description: "Core Web Vitals, asset bundling, and CDN tuning." },
-        { name: "Git, CI/CD & Shopify CLI", level: 92, description: "Automated deployment workflows and theme version control." }
+        { name: "Git & GitHub Version Control", level: 90, description: "Local Git version control, branching strategies, and remote repository management on GitHub." },
+        { name: "AI-Augmented Engineering", level: 95, description: "Accelerating development workflows with AI pair-programming for code generation, debugging, refactoring, and documentation." }
       ]
     }
   ],
