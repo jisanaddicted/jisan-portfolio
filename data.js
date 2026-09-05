@@ -188,6 +188,7 @@ const portfolioData = {
       icon: "code",
       skills: [
         { name: "HTML5, CSS3 & JavaScript (ES6+)", level: 95, description: "Semantic markup, modern layout techniques, clean code structure, and DOM manipulation." },
+        { name: "Shopify Liquid (Templating)", level: 95, description: "Shopify's frontend templating language — objects, tags, filters, and control-flow logic for building dynamic storefront sections." },
         { name: "Tailwind CSS & Responsive Design", level: 90, description: "Rapid utility-first styling and mobile-first, responsive design implementation." }
       ]
     },
