@@ -185,7 +185,21 @@ document.addEventListener('DOMContentLoaded', () => {
               <span>View Case Study</span>
               <i data-lucide="chevron-right" class="w-4 h-4"></i>
             </button>
-            <div class="flex items-center space-x-2 pt-4">
+            <div class="flex flex-col items-end gap-1.5 pt-4">
+              <div class="flex items-center space-x-2">
+              ${proj.previewUrl ? `
+                <a
+                  href="${proj.previewUrl}"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="inline-flex items-center space-x-1.5 px-3 py-1.5 rounded-lg bg-emerald-600 text-white text-xs font-semibold hover:bg-emerald-700 transition-colors"
+                  title="Open Live Preview"
+                  aria-label="Open Live Preview"
+                >
+                  <i data-lucide="eye" class="w-3.5 h-3.5"></i>
+                  <span>Live Preview</span>
+                </a>
+              ` : ''}
               ${proj.githubUrl ? `
                 <a
                   href="${proj.githubUrl}"
@@ -213,6 +227,18 @@ document.addEventListener('DOMContentLoaded', () => {
                   <i data-lucide="external-link" class="w-4 h-4"></i>
                 </a>
               ` : ''}
+              </div>
+              ${proj.previewPassword ? `
+                <button
+                  type="button"
+                  class="copy-password-btn inline-flex items-center space-x-1 text-[11px] font-medium text-slate-400 hover:text-slate-700 transition-colors"
+                  data-password="${proj.previewPassword}"
+                  title="Click to copy the password"
+                >
+                  <i data-lucide="key-round" class="w-3 h-3"></i>
+                  <span class="copy-password-label">Preview password: ${proj.previewPassword}</span>
+                </button>
+              ` : ''}
             </div>
           </div>
         </div>
@@ -225,6 +251,24 @@ document.addEventListener('DOMContentLoaded', () => {
         const id = btn.getAttribute('data-project-id');
         const proj = projs.find(p => p.id === id);
         if (proj) openModal(proj);
+      });
+    });
+
+    // Copy preview password to clipboard
+    grid.querySelectorAll('.copy-password-btn').forEach(btn => {
+      btn.addEventListener('click', async () => {
+        const label = btn.querySelector('.copy-password-label');
+        const password = btn.getAttribute('data-password') || '';
+        try {
+          await navigator.clipboard.writeText(password);
+          if (label) label.textContent = 'Password copied!';
+        } catch (err) {
+          // Clipboard unavailable (non-secure context) — text already shows the password
+          if (label) label.textContent = 'Preview password: ' + password;
+        }
+        setTimeout(() => {
+          if (label) label.textContent = 'Preview password: ' + password;
+        }, 2000);
       });
     });
 

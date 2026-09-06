@@ -82,6 +82,8 @@ const portfolioData = {
       ],
       image: "images/prime-cuts.png",
       githubUrl: "https://github.com/jisanaddicted/primecuts-theme-",
+      previewUrl: "https://zindexstore.myshopify.com/",
+      previewPassword: "1",
       technologies: ["Shopify Liquid", "OS 2.0 Sections", "JavaScript (ES6+)", "Tailwind CSS"],
       featured: true,
       completionDate: "2026-09-05"
