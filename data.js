@@ -81,7 +81,7 @@ const portfolioData = {
         { label: "Mobile CVR", value: "+18%" }
       ],
       image: "images/prime-cuts.png",
-      githubUrl: "https://github.com/jisanaddicted/primecuts-theme",
+      githubUrl: "https://github.com/jisanaddicted/primecuts-theme-",
       technologies: ["Shopify Liquid", "OS 2.0 Sections", "JavaScript (ES6+)", "Tailwind CSS"],
       featured: true,
       completionDate: "2026-09-05"
