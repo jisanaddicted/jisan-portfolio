@@ -22,7 +22,10 @@ const portfolioData = {
     completedStoresLabel: "Stores Scaled",
     clientSatisfaction: "99.8%",
     clientSatisfactionLabel: "Client Rating",
-    avatarImage: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&q=80&w=600",
+    // Profile photo. This is a hosted URL — to swap it out, either change the
+    // link here, or drop a file in the images/ folder and use a relative path
+    // (e.g. "images/profile.jpg").
+    avatarImage: "https://cdn.prod.website-files.com/6a955aecd654fdc5b6813c1a/6a9652a46531cd451bdc698c_612449561_17926599891193457_6140473338477038716_n.jpg",
     headerLogoUrl: "",
     caseStudyCategories: [
       "Theme Development",
