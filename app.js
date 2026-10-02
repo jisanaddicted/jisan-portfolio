@@ -30,6 +30,26 @@ document.addEventListener('DOMContentLoaded', () => {
     const brandTitleEls = document.querySelectorAll('.profile-title');
     brandTitleEls.forEach(el => el.textContent = p.title);
 
+    // Site logo (header + footer)
+    // Every [data-logo-img] starts visible with a hardcoded src, so the logo
+    // still renders before/without this script. Swap it for the built-in Lucide
+    // icon whenever headerLogoUrl is empty. Each image also carries an inline
+    // onerror fallback, so a broken URL degrades to the icon instead of a
+    // broken-image glyph.
+    const logoImgs = document.querySelectorAll('[data-logo-img]');
+    const logoFallbacks = document.querySelectorAll('[data-logo-fallback]');
+    if (p.headerLogoUrl) {
+      logoImgs.forEach(img => {
+        img.src = p.headerLogoUrl;
+        img.alt = p.name;
+        img.classList.remove('hidden');
+      });
+      logoFallbacks.forEach(icon => icon.classList.add('hidden'));
+    } else {
+      logoImgs.forEach(img => img.classList.add('hidden'));
+      logoFallbacks.forEach(icon => icon.classList.remove('hidden'));
+    }
+
     // Hero Badge
     const heroBadgeEl = document.getElementById('hero-badge-text');
     if (heroBadgeEl) heroBadgeEl.textContent = p.heroBadge;

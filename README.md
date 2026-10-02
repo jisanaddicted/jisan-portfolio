@@ -41,6 +41,12 @@ To change your name, projects, skills, email, metrics, or testimonials:
 * Edit the values in `portfolioData`
 * Save and re-upload to Netlify! All changes will reflect immediately without any build step.
 
+### 🖼️ Changing the Logo
+The header and footer logo is controlled by `profile.headerLogoUrl` in `data.js`:
+* Point it at any image — a local file such as `"images/shopify-logo.png"`, or any hosted URL.
+* Set it to `""` to fall back to the built-in Lucide shopping-bag icon.
+* If the image ever fails to load, the icon is shown automatically instead of a broken image.
+
 ---
 
 ## 📁 File Structure
@@ -48,5 +54,6 @@ To change your name, projects, skills, email, metrics, or testimonials:
 * `data.js` — All static profile, projects, metrics, skills, and testimonials data.
 * `app.js` — Interactive UI logic (category filtering, case study modal popup, mobile menu, Netlify form handling).
 * `styles.css` — Micro-interactions, smooth scrolling, and animations.
+* `images/` — Local image assets (e.g. the site logo and case study screenshots).
 * `netlify.toml` — Netlify headers and caching rules.
 * `_redirects` — Netlify rewrite and routing rules.

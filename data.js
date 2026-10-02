@@ -3,7 +3,7 @@
 
 const portfolioData = {
   profile: {
-    name: "Alex Vance",
+    name: "Jisan Rahman",
     title: "Senior Shopify & Hydrogen Expert",
     heroHeadline: "Architecting High-Conversion <span class=\"text-emerald-600\">Shopify Stores</span> & Headless Apps.",
     heroBadge: "Certified Shopify Plus & Hydrogen Expert",
@@ -26,7 +26,10 @@ const portfolioData = {
     // link here, or drop a file in the images/ folder and use a relative path
     // (e.g. "images/profile.jpg").
     avatarImage: "https://cdn.prod.website-files.com/6a955aecd654fdc5b6813c1a/6a9652a46531cd451bdc698c_612449561_17926599891193457_6140473338477038716_n.jpg",
-    headerLogoUrl: "",
+    // Site logo shown in the header and footer. Follows the same rule as
+    // avatarImage: a local file inside images/ or any hosted image URL.
+    // Leave it empty ("") to fall back to the Lucide shopping-bag icon.
+    headerLogoUrl: "images/shopify-logo.png",
     caseStudyCategories: [
       "Theme Development",
       "App Development"
