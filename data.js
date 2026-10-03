@@ -170,7 +170,7 @@ const portfolioData = {
       clientTitle: "VP of E-Commerce",
       company: "Lumina Home & Decor",
       avatar: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=200",
-      content: "Alex is phenomenal. Our migration to Shopify Hydrogen was seamless, and the speed improvements blew our team away. Our mobile conversion rate jumped 28% in the first month alone!",
+      content: "Jisan is phenomenal. Our migration to Shopify Hydrogen was seamless, and the speed improvements blew our team away. Our mobile conversion rate jumped 28% in the first month alone!",
       rating: 5,
       projectTitle: "Lumina Luxury - Headless Hydrogen Storefront"
     },
@@ -180,7 +180,7 @@ const portfolioData = {
       clientTitle: "Founder & Creative Director",
       company: "Velvet Apparel Co.",
       avatar: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&q=80&w=200",
-      content: "Finding a developer who understands both high-end design aesthetics and deep technical Shopify architecture is rare. Alex delivered our OS 2.0 theme ahead of schedule with flawless code.",
+      content: "Finding a developer who understands both high-end design aesthetics and deep technical Shopify architecture is rare. Jisan delivered our OS 2.0 theme ahead of schedule with flawless code.",
       rating: 5,
       projectTitle: "Velvet Threads - Custom Theme & Checkout Extensibility"
     },
@@ -190,7 +190,7 @@ const portfolioData = {
       clientTitle: "Chief Operations Officer",
       company: "Global Logistics Partners",
       avatar: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&q=80&w=200",
-      content: "Alex built a custom ERP sync app that solved our multi-warehouse inventory nightmares. Absolute professional with top-tier communication and engineering rigor.",
+      content: "Jisan built a custom ERP sync app that solved our multi-warehouse inventory nightmares. Absolute professional with top-tier communication and engineering rigor.",
       rating: 5,
       projectTitle: "SyncPro - ERP & Multi-Warehouse Inventory App"
     }
