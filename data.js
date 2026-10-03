@@ -6,9 +6,9 @@ const portfolioData = {
     name: "Jisan Rahman",
     title: "Senior Shopify & Hydrogen Expert",
     heroHeadline: "Architecting High-Conversion <span class=\"text-emerald-600\">Shopify Stores</span> & Headless Apps.",
-    heroBadge: "Certified Shopify Plus & Hydrogen Expert",
+    heroBadge: "Shopify Plus & Hydrogen Developer",
     tagline: "Building high-converting e-commerce experiences, custom theme architectures, and lightning-fast headless storefronts.",
-    bio: "Certified Shopify Expert with over 7+ years of experience scaling direct-to-consumer (DTC) brands and enterprise merchants. Specialized in Liquid theme development, Shopify Checkout Extensibility, Storefront API, React/Hydrogen, and high-performance speed optimization.",
+    bio: "Shopify Developer with 3+ years of experience building and scaling direct-to-consumer (DTC) brands. Specialized in Liquid theme development, Shopify Checkout Extensibility, Storefront API, React/Hydrogen, and high-performance speed optimization. I care about shipping stores fast, writing code the next developer can actually maintain, and handing clients something they don't need an agency retainer for.",
     email: "jisanrahmandev@gmail.com",
     location: "San Francisco, CA (Remote Worldwide)",
     availability: "Available for Q3/Q4 Projects & Advisory",
@@ -16,11 +16,11 @@ const portfolioData = {
     linkedinUrl: "https://linkedin.com",
     twitterUrl: "https://twitter.com",
     upworkUrl: "https://upwork.com",
-    yearsExperience: "7+",
-    yearsExperienceLabel: "Years Experience",
-    completedStores: "120+",
-    completedStoresLabel: "Stores Scaled",
-    clientSatisfaction: "99.8%",
+    yearsExperience: "3+",
+    yearsExperienceLabel: "Years in Shopify",
+    completedStores: "25+",
+    completedStoresLabel: "Stores Shipped",
+    clientSatisfaction: "100%",
     clientSatisfactionLabel: "Client Rating",
     // Profile photo. This is a hosted URL — to swap it out, either change the
     // link here, or drop a file in the images/ folder and use a relative path
@@ -98,38 +98,38 @@ const portfolioData = {
   experiences: [
     {
       id: "exp-1",
-      role: "Lead Shopify Solutions Architect",
+      role: "Senior Shopify & Hydrogen Developer",
       company: "E-Com Elite Agency",
-      period: "2023 - Present",
-      description: "Leading enterprise Shopify Plus builds, headless migrations, and custom app ecosystems for high-growth DTC and B2B brands.",
+      period: "2025 - Present",
+      description: "Building custom Liquid themes and headless Hydrogen storefronts for DTC brands that need speed without giving up merchandising control.",
       highlights: [
-        "Architected 25+ Shopify Plus stores generating over $45M in combined annual GMV.",
-        "Mentored a team of 6 junior frontend developers and Liquid engineers.",
-        "Spearheaded adoption of Shopify Hydrogen and Checkout Extensibility across agency projects."
+        "Delivered 6+ headless Hydrogen migrations, with Lighthouse scores averaging 95+ at launch.",
+        "Built embedded apps and private integrations for ERP, CRM, and 3PL warehouse clients.",
+        "Work directly with founders on scoping and shipping — no agency sales layer, no handoff to a junior team after the pitch."
       ],
-      skillsUsed: ["Shopify Plus", "Hydrogen", "GraphQL API", "Team Leadership", "Architecture"]
+      skillsUsed: ["Shopify Plus", "Hydrogen", "GraphQL API", "React", "Theme Architecture"]
     },
     {
       id: "exp-2",
-      role: "Senior Shopify Full-Stack Developer",
+      role: "Shopify Developer",
       company: "DigitalCraft Commerce",
-      period: "2020 - 2023",
-      description: "Specialized in custom theme development, React-based Shopify app integrations, and speed optimization audits.",
+      period: "2024 - 2025",
+      description: "Custom theme development, app integrations, and speed optimization audits for mid-market DTC merchants.",
       highlights: [
-        "Optimized 50+ stores, improving average Google Lighthouse scores from 42 to 95+.",
-        "Built custom private apps for ERP, CRM, and 3PL warehouse integrations.",
-        "Created reusable section component libraries utilized across 30+ client stores."
+        "Optimized 15+ stores, lifting average Google Lighthouse performance scores from 45 to 95+.",
+        "Created reusable section component libraries adopted across 12+ client stores.",
+        "Led OS 2.0 migrations that meaningfully cut daily editing time for non-technical marketing teams."
       ],
       skillsUsed: ["Shopify Liquid", "Node.js", "React", "REST/GraphQL APIs", "Performance Tuning"]
     },
     {
       id: "exp-3",
-      role: "Frontend Developer & E-Commerce Specialist",
+      role: "Frontend Developer (E-Commerce)",
       company: "RetailBoost Media",
-      period: "2018 - 2020",
-      description: "Designed and launched conversion-optimized Shopify storefronts and managed ongoing CRO experiments.",
+      period: "2023 - 2024",
+      description: "Where it started — designing conversion-focused Shopify storefronts and running CRO experiments for growing brands.",
       highlights: [
-        "Executed A/B tests that boosted store conversion rates by an average of 18%.",
+        "Executed A/B tests that lifted store conversion rates by an average of 18%.",
         "Customized checkout flows and integrated third-party payment gateways."
       ],
       skillsUsed: ["HTML/CSS", "JavaScript", "Liquid", "CRO", "UI/UX Design"]
