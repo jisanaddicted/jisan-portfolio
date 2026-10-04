@@ -10,7 +10,7 @@ const portfolioData = {
     tagline: "Building high-converting e-commerce experiences, custom theme architectures, and lightning-fast headless storefronts.",
     bio: "Shopify Developer with 3+ years of experience building and scaling direct-to-consumer (DTC) brands. Specialized in Liquid theme development, Shopify Checkout Extensibility, Storefront API, React/Hydrogen, and high-performance speed optimization. I care about shipping stores fast, writing code the next developer can actually maintain, and handing clients something they don't need an agency retainer for.",
     email: "jisanrahmandev@gmail.com",
-    location: "San Francisco, CA (Remote Worldwide)",
+    location: "Bashundhara, Dhaka, BD (Remote Worldwide)",
     availability: "Available for Q3/Q4 Projects & Advisory",
     githubUrl: "https://github.com",
     linkedinUrl: "https://linkedin.com",
